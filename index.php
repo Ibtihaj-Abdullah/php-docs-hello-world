@@ -11,7 +11,7 @@ mysqli_ssl_set($con, NULL, NULL, "./DigiCertGlobalRootCA.crt.pem", NULL, NULL);
 
 // Connection credentials
 $server = "app1-server.mysql.database.azure.com"; // Replace with your server name
-$username = "kzuvscxtkl@app1-server"; // Replace with your username
+$username = "kzuvscxtkl"; // Replace with your username
 $password = "D5XB9kA2Ja\$VLoRw"; // Make sure to escape any special characters in the password
 $database = "app1-database"; // Replace with your database name
 
