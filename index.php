@@ -7,7 +7,7 @@ echo "Hello World!<br>";
 
 // Initialize MySQL connection
 $con = mysqli_init();
-mysqli_ssl_set($con, NULL, NULL, "/home/site/wwwroot/DigiCertGlobalRootCA.crt.pem", NULL, NULL);
+mysqli_ssl_set($con, NULL, NULL, "./DigiCertGlobalRootCA.crt.pem", NULL, NULL);
 
 // Connection credentials
 $server = "app1-server.mysql.database.azure.com"; // Replace with your server name
