@@ -10,8 +10,8 @@ mysqli_ssl_set($con, NULL, NULL, "./BaltimoreCyberTrustRoot.crt.pem", NULL, NULL
 // Connection credentials
 $server = "app1-server.mysql.database.azure.com"; // Replace with your server name
 $username = "kzuvscxtkl"; // Replace with your username
-$password = "{your_password}"; // Replace with your password
-$database = "{your_database}"; // Replace with your database name
+$password = "D5XB9kA2Ja$VLoRw"; // Replace with your password
+$database = "app1-database"; // Replace with your database name
 
 // Connect to the Azure MySQL database
 if (mysqli_real_connect($con, $server, $username, $password, $database, 3306, NULL, MYSQLI_CLIENT_SSL)) {
