@@ -9,7 +9,7 @@ mysqli_ssl_set($con, NULL, NULL, "./BaltimoreCyberTrustRoot.crt.pem", NULL, NULL
 // Connection credentials
 $server = "app1-server.mysql.database.azure.com"; // Replace with your server name
 $username = "kzuvscxtkl@app1-server"; // Replace with your username, formatted correctly
-$password = "D5XB9kA2Ja$VLoRw"; // Replace with your password
+$password = "D5XB9kA2Ja\$VLoRw"; // Replace with your password
 $database = "app1-database"; // Replace with your database name
 
 // Connect to the database
