@@ -1,7 +1,6 @@
 <?php
 
 echo "Hello World!";
-<?php
 
 // Initialize MySQL connection
 $con = mysqli_init();
